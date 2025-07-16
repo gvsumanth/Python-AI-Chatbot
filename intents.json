@@ -1,0 +1,35 @@
+{
+    "intents":
+    [
+    {
+        "tag": "greetings", 
+        "patterns": ["hello", "hey", "hi", "good day", "Greetings", "what's up?"],
+        "responses": ["Hello!", "Hey", "what can i do for you?"]
+    },
+    {
+        "tag": "name", 
+        "patterns": ["who are you?", "what's your name", "name", "name?"],
+        "responses": ["chatbot", "chatbot, python AI", "I am an AI chatbot"]
+    },
+    {
+        "tag": "age", 
+        "patterns": ["what's your age?", "age?", "age", "how old are you?", "serve", "how long are you on?"],
+        "responses": ["2024, may", "2024", "i was created in 2024"]
+    },
+    {
+        "tag": "water", 
+        "patterns": ["which water is good for health?", "tds", "safe water", "water for drinking", "Greetings", "what's up?"],
+        "responses": ["30-200 tds", "30-200 tds water is good for drinking", "acc. to studies, 30-200 tds water is good for drinking and general household purposes"]
+    },
+    {
+        "tag": "chocolate", 
+        "patterns": ["who ate my chocolate", "where's my chocolate?", "my chocolate is gone", "someone has stolen my chocolate"],
+        "responses": ["it's lilly", "you lil sister, lilly", "lilly ate your chocolate", "lilly", "not me......someone ...LILLYYYY"]
+    },
+    {
+        "tag": "Good bye", 
+        "patterns": ["bye", "bye bye", "cya", "see you later", "Good night", "signing off"],
+        "responses": ["have a good day", "good day", "see you", "bye", "waiting for you"]
+    }
+    ]
+}
