@@ -104,8 +104,3 @@ You can add or modify the chatbot's behavior by editing the `intents.json` file:
 ```
 
 After modifying the intents, retrain the model by running `train.py`.
-
-> **Next step:** Replace `"Your Name"` and the GitHub repo link with your actual details before pushing it to GitHub.
-
-Let me know if you also want a simple Flask web interface or plan to deploy it anywhere (like on Hugging Face, Vercel, or Streamlit).
-```
